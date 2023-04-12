@@ -1,0 +1,539 @@
+
+/************************ Meyer**************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+ }
+ 
+ .flex {
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    height: 108px;
+    width: 1625px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+ }
+ 
+ .container {
+    height: 108px;
+    max-width: 1170px;
+    display: flex;
+    box-sizing: border-box;
+    text-align: left;
+    align-items: center;
+    margin: 0px auto;
+ }
+ 
+ .navbar-left {
+    height: 30px;
+    width: 130px;
+    min-height: 30px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+ 
+ }
+ 
+ .navbar-left img {
+    width: 100%;
+ }
+ 
+ .navbar-right {
+    display: flex;
+    flex-wrap: wrap;
+ 
+ 
+ }
+ 
+ .navbar-right a {
+    font-family: lato, Arial, Helvetica, Arial, sans-serif;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.84px;
+    line-height: 25px;
+    text-decoration: none solid rgb(171, 63, 63);
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    word-spacing: 1px;
+    margin: 0px auto;
+    height: 24px;
+    width: 80px;
+    min-height: auto;
+    min-width: auto;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    cursor: pointer;
+    padding: 0px;
+    margin-left: 60px;
+ }
+ 
+ .navbar-right a:hover {
+    color: rgb(233, 194, 0);
+ }
+
+
+/***************** contacts *****************/
+
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+
+.contacts-text p{
+    text-align: center;
+}
+
+.contacts-pack{
+    margin-left: 20%;
+    width: 50%;
+}
+
+.first-background img{
+    width: 100%;
+}
+
+.get-in-touch{
+    margin: 30px 0 17px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.first-name, .last-name, .your-message, .email, .email-send{
+    text-align: left;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.your-message, .email{
+    width: 100%;
+}
+
+#first-name-id::placeholder, #last-name-id::placeholder, 
+#your-message-id::placeholder, #email-id::placeholder{
+    text-align: center;
+    color: rgb(255, 174, 0);
+}
+
+#first-name-id, #last-name-id, #email-id{
+    margin-top: 28px;
+    width: 80%;
+    height: 43px;
+    border-radius: 12px;
+}
+
+.your-message{
+    display: flex;
+}
+
+#your-message-id{
+    margin-top: 28px;
+    width: 100%;
+    height: 100px;
+    border-radius: 12px;
+}
+
+.email{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.email-send{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+	margin-left: -21px;
+}
+
+.title-email{
+    width: 100%;
+}
+
+#email-id{
+    width: 67%;
+}
+
+
+.div-send{
+    width: 27%;
+
+}
+
+.div-send p{
+    color: white;
+}
+
+.div-send a{
+    text-decoration: none;
+}
+
+.div-send-bouton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 174, 0);
+    margin-top: 28px;
+    width: 100%;
+    height: 43px;
+    border-radius: 60px;
+}
+
+/****** aside ******/
+
+.aside-right{
+    margin: 75px 10% 0 5%;
+    width: 13%;
+}
+
+.line-yell-grey img{
+    width: 100%;
+    height:2px;
+}
+
+.rs-div-logos{
+    margin-top: 15px;
+    width: 80%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.rs-logos{
+    width: 20px;
+    height: 20px;
+}
+
+.title-aside{
+    margin-top: 40px ;
+}
+
+.text-aside{
+    margin-top: 10px;
+    color: rgb(143, 143, 143);
+    margin-left: 10px;
+    text-align: left;
+    width: 68%;
+}
+
+.text-div-aside{
+    margin: 9px 0 9px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.text-div-aside img{
+    margin-top: 7px;
+    width: 6%;
+}
+
+
+
+
+
+/* class générales */
+
+
+
+h1{
+    margin: 25px 25px 0 0;
+    margin-bottom: 13px;
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h2{
+    color: rgb(162, 162, 162);
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 12px;
+}
+
+h3{
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(233, 194, 0);
+}
+
+h4{
+    font-family: "Lato";
+    font-size: 17px;
+    font-style: italic;
+    color: grey;
+}
+
+p{
+    color: rgb(162, 162, 162);
+    font-family: "Lato";
+    font-size: 14px;
+}
+
+/******* footer *******/
+
+.footer-background{
+    width: 100%;
+    background: rgb(18, 18, 18);
+    display: flex;
+    justify-content: center;
+}
+
+.colonne-footer{
+    width: 27%;
+    margin-left: 8.5%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size:15px;
+    color: rgb(160, 160, 160);
+}
+
+.restoral-logo-footer img{
+    width: 170px;
+    height: 40px;
+}
+
+.text-div, .text-div-margin-bott, .text-div-clock{
+    margin-top: 9px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: left;
+}
+
+.mini-title-column{
+    width: 15%;
+    text-align: left;
+    font-size:15px;
+    color: rgb(255, 255, 255);
+}
+
+.mini-text-div{
+    margin-left: 10px;
+    text-align: left;
+    width: 68%;
+}
+
+
+.mini-text-div-clock{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.text-div-margin-bott{
+    margin-bottom: 60px;
+}
+
+.first-mini-text{
+    width: 80%;
+    margin: 18px 0 0px 0px;
+    text-align: left;
+}
+
+.opening, .our-menu, .follow{
+    color: white;
+}
+
+.our-menu{
+    padding-top: 13px;
+}
+
+.opening{
+    font-size: 13px;
+    margin-top: 55px;
+}
+
+.follow{
+    font-size: 13px;
+    margin-top: 60px;
+}
+
+.text-div img{
+    margin-top: 7px;
+    width: 4%;
+}
+
+.news-subscribe-area{
+    padding-bottom: 5px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+.placeholder{
+    color: red;
+}
+
+#champs-email::placeholder{
+    text-align: center;
+    color: rgb(255, 174, 0);
+}
+
+#champs-email{
+    margin-top: 28px;
+    width: 37%;
+    height: 43px;
+    border-radius: 60px;
+}
+
+.div-subscribe{
+    width: 37%;
+}
+
+.div-subscribe a{
+    text-decoration: none;
+}
+
+.bouton-subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 174, 0);
+    margin-top: 28px;
+    width: 100%;
+    height: 47px;
+    border-radius: 60px;
+}
+
+.bouton-subscribe p{
+    text-align: center;
+    color: white;
+}
+
+.text-div-follow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: left;
+    margin-top: -26px;
+}
+
+.logo-follow-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.logo-follow-us img{
+    margin-top: 60%;
+    width: 74%;
+}
+
+.champs-email p{
+    font-size: 9px;
+    align-items: center;
+}
+
+.our-menu{
+    padding-top: -40px;
+    font-weight: 100;
+    color: white;
+    font-family: "Changa One";
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

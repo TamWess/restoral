@@ -1,0 +1,1190 @@
+
+/************************ Meyer**************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***************** main 5 *****************/
+
+
+/* class générales */
+
+
+
+h2{
+    font-family: "Changa One";
+    font-size: 30px;
+}
+
+h3{
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(233, 194, 0);
+}
+
+h4{
+    font-family: "Lato";
+    font-size: 17px;
+    font-style: italic;
+    color: grey;
+}
+
+p{
+    font-family: "Lato";
+}
+
+
+/* header */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+ }
+ 
+ .flex {
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    height: 108px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+ }
+
+ .flex ul{
+	background: transparent !important;
+ }
+ 
+ .container {
+    height: 108px;
+    max-width: 1170px;
+    display: flex;
+    box-sizing: border-box;
+    text-align: left;
+    align-items: center;
+    margin: 0px auto;
+ }
+ 
+ .navbar-left {
+    height: 30px;
+    width: 130px;
+    min-height: 30px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+ 
+ }
+ 
+ .navbar-left img {
+    width: 100%;
+ }
+ 
+ .navbar-right {
+    display: flex;
+    flex-wrap: wrap;
+ 
+ 
+ }
+ 
+ .navbar-right a {
+    font-family: lato, Arial, Helvetica, Arial, sans-serif;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.84px;
+    line-height: 25px;
+    text-decoration: none solid rgb(171, 63, 63);
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    word-spacing: 1px;
+    margin: 0px auto;
+    height: 24px;
+    width: 80px;
+    min-height: auto;
+    min-width: auto;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    cursor: pointer;
+    padding: 0px;
+    margin-left: 60px;
+ }
+ 
+ .navbar-right a:hover {
+    color: rgb(233, 194, 0);
+ }
+
+
+
+/* main 5 */
+
+.our-chefs{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.our-chefs-title{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   margin: 6% 0 3% 0;
+}
+
+.chefs-pics{
+    height:200px;
+    width: 200px;
+}
+
+.chefs-profiles{
+    width: 60%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+
+}
+
+.orni-stark, h3, h4{
+    margin-top: 15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-chefs-logo{
+    margin-top: 15px;
+    width: 80%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.rs-logos{
+    width: 30px;
+    height: 30px;
+}
+
+/* main 6 */
+
+.our-partners{
+    width: 100%;
+    margin: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our-partners-1st-text, .our-partners-title{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.our-partners-1st-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.our-partners-1st-text p{
+    font-size:15px;
+    color: grey;
+}
+
+.logos-our-partners{
+    width: 70%;
+    display: flex;
+    margin-top: 45px;
+    justify-content:space-around;
+    align-self: center;
+}
+
+.logos-our-partners img{
+    width: 10%;
+}
+
+/* diaporama */
+
+.diaporama{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.diaporama img{
+    width: 24.8%;
+}
+ /* Our Testimonals */
+
+.our-testimonials{
+    padding-bottom: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .testimonials-column-part{
+    width: 94%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+
+ }
+
+ .testimonials-column{
+    width: 30%;
+    margin-top: 15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trait-rond-trait{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.trait, .testimonials-pic{
+    width: 100px;
+    height: 100px;
+}
+
+.trait{
+    width: 90px;
+    height: 100px;
+}
+
+.column-title, .v{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.column-title p{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.testimonials-text p{
+    font-size: 14px;
+    margin-top: 6px;
+    color: rgb(97, 97, 97);
+    width: 100%;
+    text-align: center;
+
+}
+.testimonials-text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.v img{
+    padding-top: 15px;
+    width: 90%;
+}
+
+.emily-wilson p{
+    font-weight: bold;
+    color: rgb(152, 152, 152);
+}
+
+.column-title p{
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/******* footer *******/
+
+.footer-background{
+    width: 100%;
+    background: rgb(18, 18, 18);
+    display: flex;
+    justify-content: center;
+}
+
+.colonne-footer{
+    width: 27%;
+    margin-left: 8.5%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size:15px;
+    color: rgb(160, 160, 160);
+}
+
+.restoral-logo-footer img{
+    width: 170px;
+    height: 40px;
+}
+
+.text-div, .text-div-margin-bott, .text-div-clock{
+    margin-top: 9px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: left;
+}
+
+.mini-title-column{
+    width: 15%;
+    text-align: left;
+    font-size:15px;
+    color: rgb(255, 255, 255);
+}
+
+.mini-text-div{
+    margin-left: 10px;
+    text-align: left;
+    width: 68%;
+}
+
+
+.mini-text-div-clock{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.text-div-margin-bott{
+    margin-bottom: 60px;
+}
+
+.first-mini-text{
+    width: 80%;
+    margin: 18px 0 0px 0px;
+    text-align: left;
+}
+
+.opening, .our-menu, .follow{
+    color: white;
+}
+
+.our-menu{
+    padding-top: 13px;
+}
+
+.opening{
+    font-size: 13px;
+    margin-top: 55px;
+}
+
+.follow{
+    font-size: 13px;
+    margin-top: 60px;
+}
+
+.text-div img{
+    margin-top: 7px;
+    width: 4%;
+}
+
+.news-subscribe-area{
+    padding-bottom: 5px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+.placeholder{
+    color: red;
+}
+
+#champs-email::placeholder{
+    text-align: center;
+    color: rgb(255, 174, 0);
+}
+
+#champs-email{
+
+    margin-top: 28px;
+    width: 37%;
+    height: 43px;
+    border-radius: 60px;
+}
+
+.div-subscribe{
+    width: 37%;
+}
+
+.div-subscribe a{
+    text-decoration: none;
+}
+
+.bouton-subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 174, 0);
+    margin-top: 28px;
+    width: 100%;
+    height: 47px;
+    border-radius: 60px;
+}
+
+.bouton-subscribe p{
+    text-align: center;
+    color: white;
+}
+
+.text-div-follow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: left;
+    margin-top: -26px;
+}
+
+.logo-follow-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.logo-follow-us img{
+    margin-top: 60%;
+    width: 74%;
+}
+
+.champs-email p{
+    font-size: 9px;
+    align-items: center;
+}
+
+.our-menu{
+    padding-top: -40px;
+    font-weight: 100;
+    color: white;
+    font-family: "Changa One";
+    font-size: 30px;
+}
+
+
+body {
+	line-height: 1;
+  }
+  
+  ol, ul {
+	list-style: none;
+  }
+  
+  blockquote, q {
+	quotes: none;
+  }
+  
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+	content: "";
+	content: none;
+  }
+  
+  table {
+	border-collapse: collapse;
+	border-spacing: 0;
+  }
+  
+  @font-face {
+	font-family: KanitBold;
+	src: url(assets/fonts/Kanit/Kanit-Bold.ttf);
+  }
+  @font-face {
+	font-family: Kanit;
+	src: url(assets/fonts/Kanit/Kanit-Regular.ttf);
+  }
+  @font-face {
+	font-family: KanitLight;
+	src: url(assets/fonts/Kanit/Kanit-Light.ttf);
+  }
+  .conteneur {
+	display: flex;
+	width: 70%;
+  }
+  
+  .flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .divider {
+	border-left: 1px solid #979397;
+  }
+  
+  a {
+	text-decoration: none;
+  }
+  
+  .cache {
+	display: none !important;
+  }
+  
+  header {
+	display: flex;
+	justify-content: center;
+	font-family: "Kanit";
+	font-weight: bold;
+	font-size: 20px;
+	background: #FFFFFF;
+	z-index: 1;
+	overflow: visible;
+  }
+  
+  #head {
+	height: 100px;
+	justify-content: space-between;
+  }
+  #head a {
+	transition: 0.5s;
+  }
+  #head a:hover {
+	filter: drop-shadow(0 0 6px #FFAE00);
+  }
+  #head #logo {
+	width: 20%;
+  }
+  #head #logo img {
+	width: 70%;
+  }
+  #head #menu {
+	width: 50%;
+	z-index: 10;
+  }
+  #head #menu .PAGES {
+	position: absolute;
+	z-index: 10;
+	background: #FFFFFF;
+	padding: 10px 5px;
+	border-radius: 5px;
+	translate: -15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+  }
+  #head #menu .PAGES li {
+	margin: 5px 0;
+  }
+  #head #menu ul {
+	justify-content: space-between;
+  }
+  #head #menu img {
+	width: 2px;
+	filter: invert(77%) sepia(7%) saturate(400%) hue-rotate(251deg) brightness(82%) contrast(87%);
+  }
+  #head #menu a {
+	color: #333333;
+	transition: 0.5s;
+	margin: 0 6px;
+  }
+  #head #menu a:hover {
+	color: #FFFFFF;
+	filter: drop-shadow(0 0 6px #FFAE00);
+	cursor: pointer;
+  }
+  #head #menu a.active {
+	color: #FFAE00;
+  }
+  #head #numero {
+	width: 20%;
+  }
+  #head #numero img {
+	width: 15%;
+  }
+  
+  body h1 {
+	display: none;
+  }
+  
+  sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+  }
+  
+  sup {
+	top: -0.5em;
+  }
+  
+  sub {
+	bottom: 1em;
+	font-size: 15px;
+  }
+  
+  .cta {
+	width: fit-content;
+	font-family: "kanitBold";
+	color: #FFFFFF;
+	background: #EC5353;
+	padding: 10px 30px;
+	border-radius: 50px;
+	transition: 0.5s;
+  }
+  .cta:hover {
+	background: #FFAE00;
+  }
+  
+  #carousel {
+	height: 740px;
+	color: #979397;
+	flex-direction: column;
+  }
+  #carousel #frontSlider {
+	position: absolute;
+	z-index: 5;
+  }
+  #carousel #frontSlider h2 {
+	font-family: "Kanit";
+	font-size: 20px;
+	margin: 0 5px;
+  }
+  #carousel #frontSlider img {
+	width: 50px;
+	filter: invert(0%) sepia(9%) saturate(157%) hue-rotate(251deg) brightness(90%) contrast(86%);
+  }
+  #carousel #frontSlider #droite {
+	transform: rotate(180deg);
+  }
+  #carousel #slider {
+	height: 740px;
+	width: 100%;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+  }
+  #carousel #slider img {
+	width: 100%;
+	height: 100%;
+  }
+  
+  #aboutRestoral {
+	height: 650px;
+	background: #ECEEED;
+	clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 50% 100%, 0 85%);
+  }
+  #aboutRestoral div {
+	height: 100%;
+  }
+  #aboutRestoral div .gauche {
+	margin-left: 20px;
+	margin-top: 100px;
+  }
+  #aboutRestoral div div {
+	width: 50%;
+  }
+  #aboutRestoral div div img {
+	width: 100%;
+	height: 100%;
+  }
+  #aboutRestoral div div h2 {
+	font-family: "KanitBold";
+	font-size: 35px;
+	margin: 25px 0;
+	color: #333333;
+  }
+  #aboutRestoral div div p {
+	font-family: "KanitLight";
+	font-size: 20px;
+	margin: 15px 0;
+	color: #979397;
+  }
+  #aboutRestoral div div ul {
+	justify-content: space-around;
+	margin-bottom: 70px;
+  }
+  #aboutRestoral div div ul li {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  #aboutRestoral div div ul li .aboutTitle {
+	font-family: "Kanit";
+	font-size: 50px;
+	color: #FFAE00;
+	margin-bottom: -10px;
+  }
+  #aboutRestoral div div ul li p {
+	font-family: "KanitBold";
+	font-size: 16px;
+  }
+  #aboutRestoral div div a {
+	margin-left: 10px;
+  }
+  
+  #valeurs {
+	height: 210px;
+	margin-top: 100px;
+  }
+  #valeurs div {
+	height: 100%;
+  }
+  #valeurs div ul {
+	width: 100%;
+	justify-content: space-around;
+  }
+  #valeurs div ul li {
+	height: 90%;
+	width: 20%;
+	flex-direction: column;
+  }
+  #valeurs div ul li .item {
+	height: 153%;
+  }
+  #valeurs div ul li .itemTitle {
+	font-family: "KanitBold";
+	color: #333333;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+  }
+  #valeurs div ul li .divide {
+	width: 20%;
+	margin-bottom: 20px;
+  }
+  #valeurs div ul li p {
+	font-family: "KanitLight";
+	color: #979397;
+	text-align: center;
+  }
+  
+  #carte {
+	height: 650px;
+  }
+  #carte div {
+	height: 80%;
+  }
+  #carte div div {
+	width: 100%;
+	height: 100%;
+	background: url(assets/icns/carteBack.svg) no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+  }
+  #carte div div ul {
+	width: 90%;
+	height: 70%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  #carte div div ul li {
+	height: 25%;
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  }
+  #carte div div ul li p {
+	font-family: "KanitBold";
+	margin: 5px;
+	color: #FFFFFF;
+	font-size: 18px;
+  }
+  #carte div div ul li .under {
+	font-family: "KanitLight";
+	color: #979397;
+	font-size: 14px;
+  }
+  
+  #orderOnline {
+	height: 570px;
+	background: url(assets/img/pizzas.jpg) no-repeat;
+	background-size: 100%;
+	background-position: center;
+  }
+  #orderOnline .conteneur {
+	
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	background: rgba(47, 32, 9, 0.697);
+  }
+
+  #orderOnline .conteneur div{
+	background: transparent;
+  }
+
+  #orderOnline .conteneur h2{
+	color: white;
+  }
+
+  background: transparent;
+  #orderOnline .conteneur #orderFront h2 {
+	font-family: "Kanit";
+	font-size: 20px;
+	margin: 0 5px;
+	color: #FFFFFF;
+  }
+
+  #orderFront .flex{
+	background: transparent;
+  }
+
+  #orderOnline .conteneur #orderFront img {
+	width: 50px;
+	filter: invert(24%) sepia(58%) saturate(2103%) hue-rotate(360deg) brightness(102%) contrast(104%);
+  }
+  #orderOnline .conteneur #orderFront #droitee {
+	transform: rotate(180deg);
+  }
+  #orderOnline .conteneur p {
+	font-family: "Kanit";
+	font-size: 40px;
+	color: #FFFFFF;
+  }
+  #orderOnline .conteneur div {
+	/* background: transparent; */
+	margin: 10px 0;
+  }
+  #orderOnline .conteneur div p {
+	font-family: "Kanit";
+	font-size: 40px;
+	color: #FFAE00;
+  }
+  #orderOnline .conteneur div ul li {
+	font-family: "Kanit";
+	color: #FFFFFF;
+	font-size: 10px;
+  }
+  
+  #ourChefs {
+	height: 650px;
+  }
+  #ourChefs .conteneur {
+	height: 100%;
+	margin: 0 auto;
+	flex-direction: column;
+  }
+  #ourChefs .conteneur div {
+	height: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  #ourChefs .conteneur div h2 {
+	font-family: "KanitBold";
+	font-size: 35px;
+	color: #333333;
+  }
+  #ourChefs .conteneur ul {
+	height: 85%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+  }
+  #ourChefs .conteneur ul li {
+	width: 30%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+  }
+  #ourChefs .conteneur ul li img {
+	height: 60%;
+	width: 85%;
+	background: #333333;
+	border-radius: 50%;
+	transition: 0.5s;
+  }
+  #ourChefs .conteneur ul li img:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 5px black;
+	z-index: 2;
+  }
+  #ourChefs .conteneur ul li h3 {
+	height: 7%;
+	font-family: "KanitBold";
+	font-size: 22px;
+	color: #FFAE00;
+	line-height: 200%;
+  }
+  #ourChefs .conteneur ul li p {
+	height: 7%;
+	font-family: "KanitLight";
+	font-size: 16px;
+	color: #979397;
+	line-height: 150%;
+  }
+  #ourChefs .conteneur ul li div {
+	height: 20%;
+	width: 100%;
+  }
+  #ourChefs .conteneur ul li div ul {
+	width: 80%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+  }
+  #ourChefs .conteneur ul li div ul li {
+	width: 20%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  #ourChefs .conteneur ul li div ul li a {
+	width: 85%;
+	height: 110%;
+	border-radius: 50%;
+	border: 1px solid #FFAE00;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  #ourChefs .conteneur ul li div ul li a img {
+	width: 70%;
+	height: 70%;
+	background: none;
+	filter: invert(20%) sepia(19%) saturate(3700%) hue-rotate(360deg) brightness(107%) contrast(104%);
+  }
+  #ourChefs .conteneur ul li div ul li a:hover {
+	filter: drop-shadow(0 0 4px #FFAE00);
+  }
+  
+  #ourPartners {
+	height: 400px;
+  }
+  #ourPartners .conteneur {
+	height: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+  }
+  #ourPartners .conteneur h2 {
+	height: 15%;
+	font-family: "KanitBold";
+	font-size: 35px;
+	color: #333333;
+	line-height: 150%;
+  }
+  #ourPartners .conteneur p {
+	height: 15%;
+	font-family: "KanitLight";
+	font-size: 18px;
+	color: #979397;
+	text-align: center;
+  }
+  #ourPartners .conteneur div {
+	height: 55%;
+	width: 100%;
+  }
+  #ourPartners .conteneur div ul {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+  }
+  #ourPartners .conteneur div ul li {
+	width: 20%;
+	height: 80%;
+  }
+  #ourPartners .conteneur div ul li img {
+	width: 100%;
+	height: 100%;
+  }
+  
+  #gallery {
+	height: 300px;
+  }
+  #gallery ul {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  #gallery ul li {
+	height: 100%;
+	width: 25%;
+	transition: 0.5s;
+  }
+  #gallery ul li img {
+	height: 100%;
+	width: 100%;
+  }
+  #gallery ul li:hover {
+	transform: scale(1.2);
+	box-shadow: 0 0 5px black;
+	z-index: 2;
+  }
+  
+  #ourTestimonials {
+	height: 650px;
+  }
+  #ourTestimonials div {
+	height: 100%;
+	margin: auto;
+	flex-direction: column;
+  }
+  #ourTestimonials div h2 {
+	height: 10%;
+	font-family: "KanitBold";
+	font-size: 35px;
+	color: #333333;
+	line-height: 200%;
+	text-align: center;
+  }
+  #ourTestimonials div ul {
+	height: 90%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+  }
+  #ourTestimonials div ul li {
+	height: 90%;
+	width: 30%;
+  }
+  #ourTestimonials div ul li .photo {
+	height: 45%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(assets/img/tilesDivider.svg) no-repeat;
+	background-size: 100%;
+	background-position: 0 55%;
+  }
+  #ourTestimonials div ul li .photo img {
+	height: 65%;
+	width: 50%;
+	border-radius: 50%;
+	border: 10px solid #FFFFFF;
+	transition: 0.5s;
+  }
+  #ourTestimonials div ul li .photo img:hover {
+	transform: scale(1.3);
+	z-index: 2;
+  }
+  #ourTestimonials div ul li .titleTestimonial {
+	height: 10%;
+	font-family: "KanitBold";
+	font-size: 18px;
+	color: #333333;
+	text-align: center;
+	line-height: 200%;
+  }
+  #ourTestimonials div ul li .content {
+	height: 20%;
+	font-family: "KanitLight";
+	font-size: 18px;
+	color: #979397;
+	text-align: center;
+	line-height: 130%;
+  }
+  #ourTestimonials div ul li .divide {
+	height: 15%;
+	background: url(assets/img/tilesDivider.svg) no-repeat;
+	background-size: 100%;
+	background-position: 0 60%;
+  }
+  #ourTestimonials div ul li .name {
+	height: 10%;
+	font-family: "KanitBold";
+	font-size: 14px;
+	color: #979397;
+	text-align: center;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
